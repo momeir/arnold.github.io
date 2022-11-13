@@ -1,0 +1,83 @@
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 200px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.5rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #000000;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #ffffff ;
+    border-color: #ffffff ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+h1
+{
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    text-align: center;
+}
+
+}
+
+h2
+{
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    text-align: center;
+}
+
+p
+{
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+
+img
+{
+   margin: 10px auto 20px;
+   display: block;
+   width: 25%;
+   height:25%;
+}
+
+.background
+{
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+iframe
+{
+   display: block;
+   margin-right:auto;
+   margin-left:auto;
+   autoplay: true;
+}
